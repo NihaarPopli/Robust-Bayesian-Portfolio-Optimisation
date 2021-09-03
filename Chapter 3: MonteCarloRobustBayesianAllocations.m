@@ -3,7 +3,7 @@ clear; clc; close all
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % inputs
 J=10000; % number of simulations
-T=500;   % number of observations in time series (52 is weekly)
+T=52;   % number of observations in time series (52 is weekly)
 N=20;   % number of assets in the market
 r=.4;   % overall correlation
 min_s=.1; % min volatility
