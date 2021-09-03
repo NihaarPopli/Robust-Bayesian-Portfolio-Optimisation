@@ -6,15 +6,16 @@ library(mvtnorm)
 library(quantmod)
 library(matlab)
 
-#2 dim setting
+#We loop through N or keep it fixed
 N=2
 
 #true market parameters
 sigma = -0.8*(ones(N)-diag(N))+diag(N)
 mean = c(2.5*sigma%*%rep(1,N)/N)
 
-#simulate returns time series
-y=rmvnorm(n=1000, mean = mean, sigma=sigma)
+#returns time series y: simulations (chapter 4) or use uploaded finanical dataset (chapter 5)
+y=rmvnorm(n=1000, mean = mean, sigma=sigma) #ch4
+y=read.csv("all_stocks_5yr.csv")
 
 #prior parameters (mu)
 sigma0 = diag(diag(sigma))
