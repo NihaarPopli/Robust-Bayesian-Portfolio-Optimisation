@@ -1,6 +1,9 @@
 clear; clc; close all
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% As cited in the main report, this simulation code takes some inspiration from Meucci, Attilio (2011). “Robust Bayesian Allocation”
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % inputs
 J=10000; % number of simulations
 T=52;   % number of observations in time series (52 is weekly)
