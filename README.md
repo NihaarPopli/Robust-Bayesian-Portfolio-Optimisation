@@ -1,4 +1,4 @@
-# RobustBayesianAllocation
+# Robust Bayesian Portfolio Optimisation
 Robust Bayesian Portfolio Optimisation:
 Sensitivity Analysis and Estimation Algorithms
 
